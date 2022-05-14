@@ -17,7 +17,7 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    margin: 5%;
+    margin: 3%;
 }
 .half-width img{
     width: 100%;
@@ -44,4 +44,30 @@ font-weight: 700;
     background-repeat: no-repeat;
     background-position: right;
     background-size: 80px;
+}
+.single-experience{
+    box-shadow: 8px 8px 35px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
